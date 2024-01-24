@@ -2,11 +2,10 @@
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: white;
   margin: 0;
+  padding: 60px 100px 60px 80px;
 }
 
 .footer__content {
-  padding-top: 60px;
-  margin-left: 80px;
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -80,5 +79,6 @@
   font-size: 16px;
   line-height: 20px;
   padding-bottom: 60px;
-  margin: 0 80px;
+  margin-top: 0;
+  margin-bottom: 0;
 }

@@ -13,9 +13,10 @@
 .nav__links {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding-left: 0;
   gap: 20px;
   list-style-type: none;
+  flex-direction: row;
 }
 
 .nav__link {
@@ -25,8 +26,10 @@
   line-height: 20px;
   color: #000;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .nav__link:hover {
   color: #2f80ed;
+  animation-duration: 0.3s;
 }

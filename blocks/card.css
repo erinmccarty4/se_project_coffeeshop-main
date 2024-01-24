@@ -3,27 +3,24 @@
   margin: 0;
 }
 
-.card:last-of-type {
-  margin: 100px auto 0;
-}
-
 .card__title {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   margin: 0;
+  padding-bottom: 32px;
 }
 
 .card__list {
-  font-family: 'Noto serif', Times New Roman, serif;
+  font-family: "Noto serif", Times New Roman, serif;
   padding: 0;
   margin: 0;
 }
 
 .card__list-item {
-  font-family: 'Noto serif', Times New Roman, serif;
+  font-family: "Noto serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -31,8 +28,13 @@
   margin: 0;
   list-style-type: none;
   display: flex;
+  padding-bottom: 16px;
   justify-content: space-between;
   align-content: space-between;
+}
+
+.card__list-item:last-child {
+  padding-bottom: 0;
 }
 
 .card__list-divider {

@@ -10,8 +10,7 @@
 }
 
 .form__label {
-  padding: 0;
-  margin-bottom: 8px;
+  margin: 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -26,6 +25,8 @@
   width: 20px;
   margin-right: 12px;
   padding-left: 0;
+  position: relative;
+  top: 4px;
 }
 
 .form__input {
@@ -62,6 +63,7 @@
   border: #838383;
   border-radius: 4px;
   color: #fff;
+  transition: 0.5s;
 }
 
 .form__button:hover {

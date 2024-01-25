@@ -14,7 +14,6 @@
 }
 
 .about {
-  padding: 119px 80px 173px 80px;
   background-color: #0a2850;
   color: #fff;
   overflow: hidden;
@@ -30,10 +29,10 @@
   font-size: 44px;
   line-height: 52px;
   max-width: 251px;
+  z-index: 2;
   padding-left: 80px;
   padding-top: 100px;
   margin: 0;
-  z-index: 2;
 }
 
 .about__content {
@@ -42,6 +41,9 @@
   display: flex;
   flex-direction: column;
   margin: 0 0 0 auto;
+  padding-top: 119px;
+  padding-right: 80px;
+  padding-bottom: 173px;
 }
 
 .about__paragraph {
